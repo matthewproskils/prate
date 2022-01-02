@@ -1,0 +1,17 @@
+[package]
+name = "plate"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Matthew Chan <matthewthechan@gmail.com>"]
+
+[dependencies]
+cargo-cache = "0.7.0"
+gate = "0.6.3"
+gate_build = "0.6.3"
+
+[[bin]]
+name = "plate"
+path = "build.rs"
+
+[build-dependencies]
+gate_build = "0.6.3"

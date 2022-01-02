@@ -1,0 +1,16 @@
+cargo:rerun-if-changed=src_assets/sprites
+cargo:rerun-if-changed=src_assets/sprites\BgTile_t16.png
+cargo:rerun-if-changed=src_assets/sprites\Disc0.png
+cargo:rerun-if-changed=src_assets/sprites\Disc1.png
+cargo:rerun-if-changed=src_assets/sprites\Disc2.png
+cargo:rerun-if-changed=src_assets/sprites\Disc3.png
+cargo:rerun-if-changed=src_assets/sprites\Disc4.png
+cargo:rerun-if-changed=src_assets/sprites\Pillars.png
+cargo:rerun-if-changed=assets\sprites.png
+cargo:rerun-if-changed=assets\sprites.atlas
+cargo:rerun-if-changed=src_assets/music\Tick.ogg
+cargo:rerun-if-changed=assets\music0.ogg
+cargo:rerun-if-changed=src_assets/sounds\Error.ogg
+cargo:rerun-if-changed=assets\sound0.ogg
+cargo:rerun-if-changed=src_assets/sounds\Shuffle.ogg
+cargo:rerun-if-changed=assets\sound1.ogg
