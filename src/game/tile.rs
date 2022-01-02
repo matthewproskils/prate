@@ -1,6 +1,7 @@
-use gate::{renderer::{SpriteRenderer, Affine}, AppContext};
+use gate::{renderer::{SpriteRenderer, Affine}};
 
-use crate::asset_id::{AssetId, SpriteId};
+use crate::asset_id::SpriteId;
+use crate::asset_id::AssetId;
 
 pub struct Tile {
   pub id: char,
