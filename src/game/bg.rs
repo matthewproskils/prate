@@ -7,10 +7,10 @@ use gate::{renderer::SpriteRenderer, AppContext};
 
 
 pub fn grid(map: &Map, app_width: f64, app_height: f64, renderer: &mut SpriteRenderer<AssetId>) {
-    let tileSize: f64 = app_width / map.width as f64;
-    for (x, row) in map.tiles.iter().enumerate() {
-      for (y, tile) in row.iter().enumerate() {
-        tile.draw(renderer, tileSize, app_height);
+    let tile_size: f64 = app_width / map.width as f64;
+    for row in map.tiles.iter() {
+      for tile in row.iter() {
+        tile.draw(renderer, tile_size, app_height);
       }
     }
 }
