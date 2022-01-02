@@ -10,3 +10,16 @@ Build using gate library:
 `src_assets` is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 Source code is licensed under [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+# Building:
+
+Run:
+```bash
+cargo run --release
+```
+
+Build:
+```bash
+cargo build --release
+```
+Output will be at target/release/prate.exe
